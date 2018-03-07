@@ -7,6 +7,8 @@
              |__|                  
 ```
 
+[![Build Status](https://travis-ci.org/JaveLLC/napkin.svg?branch=master)](https://travis-ci.org/JaveLLC/napkin)
+
 Tired of your ideas being stolen? Write them down on a napkin!
 
 # Usage
