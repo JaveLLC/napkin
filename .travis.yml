@@ -1,0 +1,8 @@
+language: go
+sudo: required
+go: 1.9
+
+scripts:
+  - go test ./... -cover -v
+  - GOOS=darwin go build
+
