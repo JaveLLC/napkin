@@ -16,8 +16,9 @@ package cmd
 
 import (
 	"fmt"
-
+	"github.com/JaveLLC/napkin/hide"
 	"github.com/spf13/cobra"
+	"log"
 )
 
 // Flags
@@ -36,7 +37,18 @@ This application is a tool to generate the needed files
 to quickly create a Cobra application.`,
 	Run: func(cmd *cobra.Command, args []string) {
 		// TODO: Work your own magic here
-		fmt.Println("hide called")
+		fmt.Sprintln("Obfuscating %s", inputFile)
+		if len(inputFile) < 1 {
+			log.Fatal("No input file specified.")
+		}
+		if len(outputFile) < 1 {
+			log.Fatal("No out file specified.")
+		}
+
+		err := hide.HideFile(inputFile, outputFile)
+		if err != nil {
+			log.Fatal(err)
+		}
 	},
 }
 
