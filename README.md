@@ -8,3 +8,7 @@
 ```
 
 Tired of your ideas being stolen? Write them down on a napkin!
+
+# Usage
+
+`go run main.go hide -i inputfile -o outputfile`
