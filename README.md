@@ -7,7 +7,7 @@
              |__|                  
 ```
 
-[![Build Status](https://travis-ci.org/JaveLLC/napkin.svg?branch=master)](https://travis-ci.org/JaveLLC/napkin)
+[![Build Status](https://travis-ci.org/OrcaLLC/napkin.svg?branch=master)](https://travis-ci.org/OrcaLLC/napkin)
 
 Tired of your ideas being stolen? Write them down on a napkin!
 

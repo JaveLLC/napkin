@@ -14,7 +14,7 @@
 
 package main
 
-import "github.com/JaveLLC/napkin/cmd"
+import "github.com/OrcaLLC/napkin/cmd"
 
 func main() {
 	cmd.Execute()
