@@ -3,7 +3,7 @@ package hide
 import (
   "bufio"
   "fmt"
-  "github.com/JaveLLC/napkin/reverse"
+  "github.com/OrcaLLC/napkin/reverse"
   "log"
   "os"
 )

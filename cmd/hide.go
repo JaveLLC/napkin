@@ -16,7 +16,7 @@ package cmd
 
 import (
 	"fmt"
-	"github.com/JaveLLC/napkin/hide"
+	"github.com/OrcaLLC/napkin/hide"
 	"github.com/spf13/cobra"
 	"log"
 )
